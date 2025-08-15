@@ -27,7 +27,7 @@ Gosport_meteorite_simulator/
 ├── gosport_map_visualizer.py   # Multi-method visualization toolkit
 ├── integrated_gpu_map.py       # Integrated mapping with fallback options
 │
-├── Meteorite_Landings.csv      # NASA meteorite dataset (required)
+├── Meteorite_Landings.csv      # NASA meteorite dataset (included)
 │
 └── outputs/                     # Generated maps and visualizations
     ├── pure_gpu_map.png
@@ -97,10 +97,12 @@ The pure GPU version requires:
 python pure_gpu_umaco.py
 ```
 This will:
-- Load NASA meteorite data
+- Load the included NASA meteorite data
 - Create fitness landscape for Gosport area
 - Run UMACO optimization on GPU
 - Generate heat map visualization
+
+*No additional data download needed - everything's included!*
 
 ### 2. Advanced Visualization
 ```python
@@ -118,10 +120,12 @@ Runs with automatic fallbacks if certain libraries aren't available.
 
 ## 📊 Data Source
 
-The project uses NASA's Meteorite Landings dataset:
+**The `Meteorite_Landings.csv` file is included in this repository for immediate use!** 
+
+The dataset originates from NASA's Meteorite Landings database:
 > [NASA Meteorite Landings Dataset](https://data.nasa.gov/dataset/meteorite-landings)
 
-Download `Meteorite_Landings.csv` and place it in the project root directory.
+To update with the latest data or explore the full dataset, you can download directly from NASA's portal.
 
 ---
 
