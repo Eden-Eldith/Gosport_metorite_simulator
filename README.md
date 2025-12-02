@@ -217,7 +217,15 @@ Contributions welcome! Areas for improvement:
 
 ## 📜 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+**Recursive Cognitive License (RCL) v2.0**
+
+This project uses the UMACO framework and is licensed under the Recursive Cognitive License.
+
+- ✅ Non-commercial research and education: Free with attribution
+- ❌ Commercial use: Requires explicit licensing agreement
+- 📜 See [LICENSE](LICENSE) and [RED.md](RED.md) for full terms
+
+**TL;DR:** If you use Eden's recursive frameworks, you entangle with Eden's cognition. Respect the resonance. c:
 
 ---
 
